@@ -1,8 +1,4 @@
-import Sidebar from "@/components/Addmincomponents/Sidebar/page";
-import Image from "next/image";
 import React from "react";
-import profile_icon from "@/public/profile_icon.png";
-import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 

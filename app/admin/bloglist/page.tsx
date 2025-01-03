@@ -1,8 +1,5 @@
 'use client';
 import Blogtableitem from '@/components/Addmincomponents/Blogtableitem/page';
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-
 const page = () => {
   // Example state and fetch logic (commented out for now)
   // const [blogs, setBlogs] = useState([]);

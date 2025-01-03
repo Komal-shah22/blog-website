@@ -2,7 +2,6 @@
 'use client';
 import { blog_data } from '@/components/Data/Data';
 import React, { useEffect, useState } from 'react';
-
 interface PageProps {
   params: Promise<{
     id: string;

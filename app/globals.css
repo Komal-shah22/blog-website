@@ -2,20 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.instagram{
+  background: radial-gradient(
+     circle at 30% 107%,
+     #fdf497 0%,
+     #fdf497 5%,
+     #fd5949 45%,
+     #d62497 60%,
+     #285aeb 90%
+
+  ) ;
+}
+.scrollbar-hide::-webkit-scrollbar{
+  display: none;
+}
+.scrollbar-hide{
+  -ms-overflow-style:none;
+  scrollbar-width:none;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
